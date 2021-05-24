@@ -2,12 +2,12 @@
   "name": "tolmatch",
   "version": "1.0.0",
   "private": false,
-  "homepage": "https://ketorg0z.github.io/", 
+  "basepath": "https://ketorg0z.github.io/",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "sirv public --no-clear"
   },
   "devDependencies": {
@@ -23,6 +23,7 @@
   "dependencies": {
     "@rollup/plugin-replace": "^2.4.2",
     "@sberdevices/assistant-client": "^2.15.3",
+    "gh-pages": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sirv-cli": "^1.0.0"

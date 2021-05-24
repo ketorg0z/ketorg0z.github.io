@@ -1,7 +1,7 @@
 var ghpages = require('gh-pages');
 
 ghpages.publish(
-    'public', // path to public directory
+    '', // path to public directory
     {
         branch: 'gh-pages',
         repo: 'https://github.com/ketorg0z/ketorg0z.github.io.git', // Update to point to your repository  

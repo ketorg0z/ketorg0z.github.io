@@ -2,7 +2,7 @@
   "name": "tolmatch",
   "version": "1.0.0",
   "private": false,
-  "homepage": "https://ketorg0z.github.io/tolmatch/", 
+  "homepage": "https://ketorg0z.github.io/", 
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
